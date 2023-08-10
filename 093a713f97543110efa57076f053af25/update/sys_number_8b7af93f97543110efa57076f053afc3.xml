@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1068027_laptop_t_laptopdata">x_1068027_laptop_t_laptopdata</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>LAP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-03 19:04:35</sys_created_on>
+        <sys_id>8b7af93f97543110efa57076f053afc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LAP</sys_name>
+        <sys_package display_value="Laptop Tracker" source="x_1068027_laptop_t">093a713f97543110efa57076f053af25</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Laptop Tracker">093a713f97543110efa57076f053af25</sys_scope>
+        <sys_update_name>sys_number_8b7af93f97543110efa57076f053afc3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-03 19:04:35</sys_updated_on>
+    </sys_number>
+</record_update>

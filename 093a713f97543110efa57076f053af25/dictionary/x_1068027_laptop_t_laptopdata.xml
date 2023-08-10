@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b27af93f97543110efa57076f053af42" label="laptopdata" max_length="40" name="x_1068027_laptop_t_laptopdata" type="collection">
+        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="Date of Issue" max_length="40" name="date_of_issue" type="glide_date_time"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="OS" max_length="40" name="os" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Window10" sequence="0" value="Window10"/>
+                <element inactive_on_update="false" label="Windos07" sequence="1" value="Windos07"/>
+                <element inactive_on_update="false" label="Mac" sequence="2" value="Mac"/>
+            </choice>
+        </element>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element choice="1" label="Type of Laptop" max_length="40" name="type_of_laptop" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Gaming" sequence="0" value="Gaming"/>
+                <element inactive="true" inactive_on_update="true" label="New" sequence="0" value="New"/>
+                <element inactive="true" inactive_on_update="true" label="Replacement" sequence="1" value="Replacement"/>
+                <element inactive_on_update="false" label="Software" sequence="1" value="Software"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="company"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>
